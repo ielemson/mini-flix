@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+.card-cascade img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50vh;
+}
+.top-movie img {
+  max-width: 100%;
+  height: auto;
+  max-height: 34vh;
+}

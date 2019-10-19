@@ -1,0 +1,106 @@
+[
+    {
+      id: 1,
+      title: "Avengers End Game",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571242890/netflix-mini/end-game_h2fbpr.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 2,
+      title: "Captain Marvel",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571242885/netflix-mini/captain-marvel_iitpje.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 3,
+      title: "Spider Man",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571242886/netflix-mini/spider-man_mkw3ur.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 4,
+      title: "IT Chapter 2",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571242884/netflix-mini/it_chapter_two_pennywise_poster_eoguyx.png",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 5,
+      title: "Wonder Woman",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571243518/netflix-mini/wonder-woman1_gaj4ah.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 6,
+      title: "Dead Pool",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571243518/netflix-mini/dead-pool_rgde1l.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 7,
+      title: "Merry Men",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571243517/netflix-mini/merry-men_fvazup.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    },
+    {
+      id: 1,
+      title: "Lion Heart",
+      rated: "5 star",
+      writer: "Anthony Russo, Joe Russo",
+      imgurl:
+        "https://res.cloudinary.com/ielemson/image/upload/v1571318053/netflix-mini/lion-heart_cu4kt2.jpg",
+      date: "1/04/2019",
+      duration: "3h 2m",
+      director: "Stan Lee, Jack Kirby, Jim Starlin",
+      movie_details:
+        "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner"
+    }
+  ];
