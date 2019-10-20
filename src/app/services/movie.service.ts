@@ -4,7 +4,7 @@ import {
   HttpHeaders
 } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-
+import { Subject } from "rxjs";
 @Injectable({
   providedIn: "root"
 })
@@ -12,7 +12,14 @@ export class MovieService {
   constructor(private http: HttpClient) {}
   //GET ALL MOVIES FROM THE OBJECT
   getMovies() {
-    return MOVIES;
+    //this helps the page act asyncly
+    let subject = new Subject();
+    setTimeout(() => {
+      subject.next(MOVIES);
+      subject.complete();
+    }, 1000);
+    //return the observable
+    return subject;
   }
 
   getMovie(id: number) {

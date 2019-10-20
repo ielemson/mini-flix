@@ -16,7 +16,9 @@ import { MovieDetailsComponent } from "./movie/movie-details/movie-details.compo
 import { AngularFireModule } from "@angular/fire";
 import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { environment } from "../environments/environment";
-import { from } from "rxjs";
+import { MovieRouteActivator } from "./movie/movie-details/movie-route-activator.service";
+import { Error404Component } from "./movie/errors/error404/error404.component";
+import { MovieListResolverService } from "./movie/movie-list-resolver.service";
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,8 @@ import { from } from "rxjs";
     AboutComponent,
     HomeComponent,
     MovieItemComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,7 @@ import { from } from "rxjs";
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],
-  providers: [],
+  providers: [MovieRouteActivator, MovieListResolverService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
