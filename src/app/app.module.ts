@@ -13,8 +13,8 @@ import { AboutComponent } from "./about/about.component";
 import { HomeComponent } from "./home/home.component";
 // import { MovieItemComponent } from "./movie/movie-item/movie-item.component";
 // import { MovieDetailsComponent } from "./movie/movie-details/movie-details.component";
-import { AngularFireModule } from "@angular/fire";
-import { AngularFireDatabaseModule } from "@angular/fire/database";
+// import { AngularFireModule } from "@angular/fire";
+// import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { environment } from "../environments/environment";
 import { MovieRouteActivator } from "./movie/movie-details/movie-route-activator.service";
 import { Error404Component } from "./movie/errors/error404/error404.component";
@@ -27,7 +27,7 @@ import {
   MovieDetailsComponent,
   MovieItemComponent
 } from "./movie/index";
-import { FavouriteMovieComponent } from './movie/favourite-movie/favourite-movie.component';
+import { FavouriteMovieComponent } from "./movie/favourite-movie/favourite-movie.component";
 //MULTIPLE MOVIE COMPONETIMPORTS**************************************
 @NgModule({
   declarations: [
@@ -46,9 +46,9 @@ import { FavouriteMovieComponent } from './movie/favourite-movie/favourite-movie
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    HttpClientModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    HttpClientModule
+    // AngularFireModule.initializeApp(environment.firebase),
+    // AngularFireDatabaseModule
   ],
   providers: [MovieRouteActivator, MovieListResolverService],
   bootstrap: [AppComponent]

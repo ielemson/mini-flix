@@ -1,15 +1,15 @@
-import {
-  HttpClientModule,
-  HttpClient,
-  HttpHeaders
-} from "@angular/common/http";
+// import {
+//   HttpClientModule,
+//   HttpClient,
+//   HttpHeaders
+// } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Subject } from "rxjs";
 @Injectable({
   providedIn: "root"
 })
 export class MovieService {
-  constructor(private http: HttpClient) {}
+  constructor() {}
   //GET ALL MOVIES FROM THE OBJECT
   getMovies() {
     //this helps the page act asyncly
