@@ -1,18 +1,112 @@
-<div class="container">
-  <img [src]="movie?.imgurl" [alt]="movie?.title" />
-
-  <div class="row">
-    <div class="col-md-11">
-      <h2>{{ movie?.title }}</h2>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6">
-      <div><strong>Date:</strong> {{ movie?.date }}</div>
-    </div>
-    <div class="col-md-6">
-      >
-    </div>
-  </div>
+<!--Main layout-->
+<main class="mt-2 pt-4">
+<div class="container  mt-5">
+<!--Grid row-->
+<div class="row wow fadeIn">
+<!--Grid column-->
+<div class="col-md-6 mb-4">
+<h2 align="center" class="text-warning">
+{{ movie?.title | uppercase }} <br />
+</h2>
+<img [src]="movie?.imgurl" class="img-fluid" [alt]="movie?.title" />
 </div>
+<!--Grid column-->
+
+<!--Grid column-->
+<div class="col-md-6 mb-4">
+<!--Content-->
+<div class="p-4">
+<div class="mb-3">
+<a href="">
+<span class="badge purple mr-1">Trailer</span>
+</a>
+<a href="">
+<span class="badge blue mr-1">New</span>
+</a>
+<a href="">
+<span class="badge red mr-1">Bestseller</span>
+</a>
+</div>
+
+<p class="lead">
+<small class="text-white">sci-fi, adventure</small>
+</p>
+
+<p class="lead font-weight-bold">Description</p>
+
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor
+suscipit libero eos atque quia ipsa sint voluptatibus! Beatae sit
+assumenda asperiores iure at maxime atque repellendus maiores quia
+sapiente.
+</p>
+<div class="rating rating2 mb-4">
+<a href="#5" title="Give 5 stars"
+><b class="far fa-star text-warning"></b
+></a>
+<a href="#5" title="Give 5 stars"
+><b class="far fa-star text-warning"></b
+></a>
+<a href="#5" title="Give 5 stars"
+><b class="far fa-star text-warning"></b
+></a>
+<a href="#5" title="Give 5 stars"
+><b class="far fa-star text-warning"></b
+></a>
+<a href="#5" title="Give 5 stars"
+><b class="far fa-star text-warning"></b
+></a>
+</div>
+
+<!--Grid row-->
+
+<!--Grid column-->
+<div class="row">
+<div class="col-md-3 text-center">
+<h4 class="my-4 h4">Producer</h4>
+
+<p>
+Roy James
+</p>
+</div>
+<div class="col-md-3 text-center">
+<h4 class="my-4 h4">Writer</h4>
+
+<p>
+Roy James
+</p>
+</div>
+<div class="col-md-3 text-center">
+<h4 class="my-4 h4">Actors</h4>
+
+<p>
+James Brown
+</p>
+<p>Peter Shaw</p>
+</div>
+<div class="col-md-3 text-center">
+<h4 class="my-4 h4">Language</h4>
+
+<p>
+English
+</p>
+</div>
+</div>
+<!--Grid column-->
+
+<!--Grid row-->
+</div>
+<!--Content-->
+</div>
+<!--Grid column-->
+</div>
+<!--Grid row-->
+
+<hr />
+
+<!--Grid row-->
+
+<!--Grid row-->
+</div>
+</main>
+<!--Main layout-->

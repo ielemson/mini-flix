@@ -115,5 +115,52 @@ const MOVIES = [
     duration: "3h 2m",
     director: "Stan Lee, Jack Kirby, Jim Starlin",
     movie_details: ""
+  },
+  {
+    id: 9,
+    title: "how to train your dragon",
+    rated: "5 star",
+    writer: "Anthony Russo, Joe Russo",
+    imgurl:
+      "https://res.cloudinary.com/ielemson/image/upload/v1571712299/netflix-mini/train-your-dargon_pda65t.jpg",
+    date: "1/04/2019",
+    duration: "3h 2m",
+    director: "Stan Lee, Jack Kirby, Jim Starlin",
+    movie_details: ""
+  },
+  {
+    id: 10,
+    title: "dora and the city lost gold",
+    rated: "5 star",
+    writer: "Anthony Russo, Joe Russo",
+    imgurl: "../../assets/img/movie/Dora-City-Lost-Gold-Isabela-Moner.jpg",
+    date: "1/04/2019",
+    duration: "3h 2m",
+    director: "Stan Lee, Jack Kirby, Jim Starlin",
+    movie_details: ""
+  },
+  {
+    id: 11,
+    title: "lego dc batman:family matter",
+    rated: "5 star",
+    writer: "Anthony Russo, Joe Russo",
+    imgurl:
+      "https://res.cloudinary.com/ielemson/image/upload/v1571714456/netflix-mini/batman_xui4ly.jpg",
+    date: "1/04/2019",
+    duration: "3h 2m",
+    director: "Stan Lee, Jack Kirby, Jim Starlin",
+    movie_details: ""
+  },
+  {
+    id: 12,
+    title: "the kid who would be king",
+    rated: "5 star",
+    writer: "Anthony Russo, Joe Russo",
+    imgurl:
+      "https://res.cloudinary.com/ielemson/image/upload/v1571242884/netflix-mini/kids-movies-2019-the-kid-who-would-be-king_gvsyrz.jpg",
+    date: "1/04/2019",
+    duration: "3h 2m",
+    director: "Stan Lee, Jack Kirby, Jim Starlin",
+    movie_details: ""
   }
 ];

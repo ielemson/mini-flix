@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
 .card-cascade img {
   max-width: 100%;
   height: auto;
@@ -8,5 +13,5 @@
 .top-movie img {
   max-width: 100%;
   height: auto;
-  max-height: 34vh;
+  max-height: 45vh;
 }

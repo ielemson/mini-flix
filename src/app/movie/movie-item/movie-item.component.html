@@ -1,7 +1,7 @@
 <!-- <h4 class="py-4 text-center">Wider</h4> -->
 
 <!--Card-->
-<div class="card card-cascade wider mb-4">
+<div class="card card-cascade wider mb-4 grow">
   <!--Card image-->
   <div class="view view-cascade">
     <img src="{{ movie.imgurl }}" class="card-img-top" />
@@ -15,11 +15,11 @@
   <div class="card-body card-body-cascade text-center">
     <!--Title-->
     <h4 class="card-title text-danger">
-      <strong>{{ movie?.title }}</strong>
+      <strong>{{ movie?.title | uppercase }}</strong>
     </h4>
     <a [routerLink]="['/movies', movie.id]" class="btn btn-danger btn-sm"
-      ><strong>view</strong></a
-    >
+      ><strong><i class="fa fa-play fa-lg"></i></strong
+    ></a>
 
     <p class="card-text">
       {{ movie?.movie_details }}
@@ -42,7 +42,7 @@
         >
       </li>
       <li class="list-inline-item">
-        <a href="#" class="white-text"><i class="fab fa-heart pr-1"> </i></a>
+        <a href="#" class="white-text"><i class="far fa-heart pr-1"> </i></a>
       </li>
     </ul>
   </div>
